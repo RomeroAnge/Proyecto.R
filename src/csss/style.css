@@ -1,0 +1,16 @@
+.Image{
+    width: 280px;
+    height: 250px;
+}
+a{
+    color:#24807E;
+}
+li{
+    color:rgb(212, 86, 139);
+}
+ul{
+    color:rgba(224,36,114,1);
+}
+h1{
+    color:aqua;
+}
