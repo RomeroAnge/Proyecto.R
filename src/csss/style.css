@@ -1,4 +1,112 @@
-.Image{
+body{
+    background-color:white;
+}
+header{
+    background-color: black;
+}
+section{
+    /*background-image:url(../img/Informacion1.jpg);*/
+}
+.logo{
+    width: 7%;
+    height: 9%;
+    text-align: left;
+    position: absolute;
+    background-color: black;
+
+}
+.logo_icono{
+    width: 50px;
+    height: 50px;
+}
+.icono{
+    width: 8%;
+    height: 9%;
+    margin-left: 92%;
+    position: absolute;
+    text-align: right;
+    background-color: black;
+
+
+}
+.icono_icono1{
+    width: 30px;
+    height: 30px;
+    padding-top: 15px;
+    padding-right: 18px;
+
+}
+.menu{
+    width: 76%;
+    height: 9%;
+    margin-left: 7%;
+    padding-left: 150px;
+    position: absolute;
+    background-color: black;
+    
+}
+.menu_opciones{
+   
+    
+    color:white;
+    font-size: 12px;
+    font-family:cursive;
+    font-weight: lighter;
+    font-style: italic;
+    list-style: none;
+    text-decoration: none;
+     position: absolute;
+    
+}
+.cuerpo_imagen{
+    width: 250px;
+    height: 300px;
+    text-align:left ;
+}
+.cuerpo{
+
+}
+.cuerpo_titulo{
+     color:black;
+     font-size: 16px;
+     font-weight: bold;
+     text-align: right;
+
+}
+.cuerpo_parrafo{
+    color:blue;
+    font-size: 12px;
+    font-family:cursive;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+.cuerpo_link{
+    color:blue;
+    font-size: 12px;
+    font-family:cursive;
+    font-weight: lighter;
+    font-style:oblique;
+
+}
+footer{
+    background-color: black;
+}
+.final{
+color:white;
+font-size: 16px;
+font-family: sans-serif;
+}
+.final_links{
+
+    color:white;
+    font-size: 12px;
+    font-family:cursive;
+    font-weight: lighter;
+    font-style: italic;
+    list-style: none;
+    text-decoration: none;
+/*.Image{
     width: 280px;
     height: 250px;
 }
@@ -14,3 +122,29 @@ ul{
 h1{
     color:aqua;
 }
+.card{
+    color:aquamarine;
+    &__image{
+
+    }
+}
+#xd{
+    color:blueviolet
+}
+.faq{
+
+}
+.menu{
+
+}
+.menu_texto{
+
+}
+.menu{
+    &_inicio{
+
+    }
+    &_informacion{
+
+    }
+}*/
