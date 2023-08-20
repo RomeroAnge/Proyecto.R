@@ -9,14 +9,14 @@
 <body>
     <header>
         <div class="logo">
-            <img class="logo_icono" src="src/img/icono1.jpeg" class="Image" alt="">
+            <a title="" href="index.html"><img class="logo_icono" src="src/img/icono1.jpeg" class="Image" alt=""></a>
         </div>
         <nav class="menu">
             <ul>
                 <a  style="margin-left: 150px;" class="menu_opciones" href="información.html"><li>Información</li></a>
                 <a style="margin-left: 300px;" class="menu_opciones" href="novedades.html"><li>Novedades</li></a>
                 <a style="margin-left: 450px;" class="menu_opciones" href="consejos.html"><li>Consejos</li></a>
-                <a style="margin-left: 600px;"class="menu_opciones" href="soporte1.html"><li>Soporte</li></a>
+                <a style="margin-left: 580px;"class="menu_opciones" href="soporte1.html"><li>Soporte</li></a>
                 
             </ul>
         </nav>
@@ -26,11 +26,15 @@
         </div>
     </header>
 
-    <section>
-        <img class="cuerpo_imagen" src="src/img/inicio1.jpg" class="Image" alt="">
-    </section>
-    <aside>
-        <article class="cuerpo">
+    <iframe src="soporte1.html" frameborder="0" style="height: 200px; width: 200px; background-color: green;">
+
+    </iframe>
+    <section class="cuerpo">
+        <div class="cuerpo_imagen">
+            <img class="cuerpo_imagen__detalle"  src="src/img/inicio1.jpg" class="Image" alt="">
+        </div>
+        
+        <aside class="cuerpo__menu">
             <h1 class="cuerpo_titulo">Guia Pro de Clash Royal</h1>
             <p class="cuerpo_parrafo"><b>Clash Royal</b> en los últimos años, se volvió
                 muy popular entre los adolescentes. Es por eso,
@@ -39,9 +43,8 @@
                 selecciona uno de las opciones para enterarte 
                 sobre las novedades de este juego.</p>
             <h4 class="cuerpo_link">Links de Descargas</h4>
-        </article> 
-    </aside>
-    <section>
+        </aside> 
+
         <nav class="descargas">
             <ol>
                 <li><a class="descargas_img" href="https://play.google.com/store/apps/details?id=com.supercell.clashroyale">Google</a></li>
@@ -49,13 +52,22 @@
                 <li><a class="descargas_img" href="https://clash-royale-tencent-gaming-buddy.uptodown.com/windows">Windows</a></li>
             </ol>
         </nav>
+    
     </section>
+   
     <footer>
-        <h3 class="final">Redes Sociales:</h3>
-        <nav class="final_links">
-            <h3><a class="final_links"  href="">Instagram</a>  <a class="final_links" href="https://www.facebook.com/cristian.romerovega.12?mibextid=ZbWKwL">Facebook</a>   <a class="final_links" href="">Youtube</a>  <a class="final_links" href="">Linkendin</a>   <a class="final_links" href="">Github</a></h3>
-        <h3>------------------------------------------------------------------------</h3>
-        <h4><a class="final_links" href="">Términos y Condiciones</a><a class="final_links" href="">Politicas de Privacidad</a><a class="final_links" href="">Guia Parental</a></h4>
+        <section class="pie">
+            <h3 class="pie_final">Redes Sociales:</h3>
+            <a style="margin-left: 180px;"class="pie_links"  href=""><li>Instagram</li></a>
+            <a style="margin-left: 280px;"class="pie_links" href="https://www.facebook.com/cristian.romerovega.12?mibextid=ZbWKwL"><li>Facebook</li></a>
+            <a style="margin-left: 380px;"class="pie_links" href=""><li>Youtube</li></a>
+            <a style="margin-left: 480px;"class="pie_links" href=""><li>Linkendin</li></a>
+            <a style="margin-left: 580px;"class="pie_links" href=""><li>Github</li></a>
+        </section>
+        <nav class="final">
+            <ol><a style="margin-left: 10px;" class="final_links" href=""><li>Términos y Condiciones</li></a>
+                <a style="margin-left: 170px;" class="final_links" href=""><li>Politicas de Privacidad</li></a>
+                <a style="margin-left: 340px;" class="final_links" href=""><li>Guia Parental</li></a></ol>
         </nav>
         
     </footer>
