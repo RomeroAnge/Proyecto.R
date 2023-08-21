@@ -1,25 +1,28 @@
-body{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
 }
+:root{
+    --main-fondo:black;
+}
+a{
+    color:var(--text-color);
+}
+/*PARTE CENTRAL*/
 header{
     height: 100px;
     width: 100%;
    position: relative;
    margin-top: 0%;   
-   background-color: black;
-}
-section{
-    /*background-image:url(../img/Informacion1.jpg);*/
+   background-color: var(--main-fondo);
 }
 .logo{
     width: 10%;
     height: 100%;
     text-align: left;
     position: absolute;
-    background-color: black;
+    background-color: var(--main-fondo)k;
 }
 .logo_icono{
     width: 90px;
@@ -27,34 +30,40 @@ section{
     margin: 4%;
 }
 .icono{
-    width: 15%;
+    width: 17%;
     height: 100%;
-    margin-left: 85%;
+    margin-left: 82%;
     position: absolute;
     text-align: right;
     border-left-width: 1px;
     border-left-style: solid;
     border-left-color: white;
-    background-color: black;
+    background-color: var(--main-fondo);
 }
 .icono_icono1{
-    background-color: black;
-    width: 43px;
-    height: 43px;
+    background-color: var(--main-fondo);
+    width: 42px;
+    height: 42px;
     margin: 12%;
     margin-top: 28px;
 }
 .menu{
-    width: 75%;
+    width: 72%;
     height: 100%;
     margin-left: 10%;
     padding-left: 150px;
     position: absolute;
-    background-color: black;
+    background-color: var(--main-fondo);
+}
+.menu_opciones:hover{
+    color:white;
+}
+.menu_opciones:focus{
+    color:white;
 }
 .menu_opciones{
    
-    color:white;
+    color:rgb(216, 211, 211);
     font-size: 20px;
     font-family:sans-serif;
     font-weight: lighter;
@@ -62,64 +71,24 @@ section{
     list-style: none;
     text-decoration: none;
     position: absolute; 
-    margin:20px
+    margin-top:35px
 }
-.cuerpo{
-    width: 100%;
-    margin: 0px;
 
-}
-.cuerpo_imagen{
-   margin:0px;
-   width: 50%;
-}
-.cuerpo_imagen__detalle{
-    width: 100%;
-    padding: 10px;
-    text-align:left ;
-    border-radius: 10%;
-}
-.cuerpo__menu{
-    margin:10px;
-    width: 50%;
-}
-.cuerpo_titulo{
-     color:black;
-     font-size: 16px;
-     font-weight: bold;
-     text-align: right;
-
-}
-.cuerpo_parrafo{
-    color:blue;
-    font-size: 12px;
-    font-family:cursive;
-    font-weight: lighter;
-    font-style: italic;
-    
-}
-.cuerpo_link{
-    color:blue;
-    font-size: 12px;
-    font-family:cursive;
-    font-weight: lighter;
-    font-style:oblique;
-
-}
 footer{
-    background-color: rgb(97, 50, 50);
+    background-color: var(--main-fondo);
 }
 .pie{
-    background-color: black;
+    background-color: var(--main-fondo);
     width: 100%;
     height: 50px;
 }
 .pie_final{
-    margin-left: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
     position: absolute;
 color:white;
-font-size: 15px;
-font-family:Arial, Helvetica, sans-serif;
+font-size: 19px;
+font-family:cursive;
 align-items: center;
 }
 .pie_links{
@@ -127,7 +96,7 @@ align-items: center;
     position: absolute;
     align-items:center;
     color:white;
-    font-size: 12px;
+    font-size: 16px;
     font-family:cursive;
     font-weight: lighter;
     font-style: italic;
@@ -140,13 +109,13 @@ align-items: center;
     border-top-width: 1px;
     border-top-style: solid;
     border-top-color: white;
-    background-color: blue;
+    background-color: var(--main-fondo);
 }
 .final_links{
     margin: 0px;
     position: absolute;
     color:white;
-    font-size: 12px;
+    font-size: 16px;
     font-family:cursive;
     font-weight: lighter;
     font-style: italic;
@@ -154,6 +123,154 @@ align-items: center;
     text-decoration: none;
 
 }
+/*INICIO*/
+.cuerpo{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.cuerpo_imagen{
+    margin: 0px;
+    padding: 60px;
+    width: 50%;
+}
+.cuerpo_imagen__detalle{
+    width: 100%;
+    height: 600px;
+    padding: 0px;
+    text-align: left;
+    border-radius: 3%;
+}
+.cuerpo__menu{
+    margin: 0px;;
+    width: 50%;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #0A2647 10px;
+    padding: 5px;
+}
+.cuerpo_titulo{
+     color:#0A2647;
+     font-size: 40px;
+     font-family:cursive;
+     font-style: italic;
+     font-weight: bold;
+     text-align: center;
+
+}
+.cuerpo_parrafo{
+    color:#18477c;
+    text-align: center;
+    font-size: 20px;
+    font-family:cursive;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+.cuerpo_link{
+    color:#0A2647;
+    font-size: 18px;
+    font-family:cursive;
+    font-weight: lighter;
+    font-style:oblique;
+
+}
+.cuerpo_descargas:active{
+    color:lime;
+}
+.cuerpo_descargas:hover{
+    background-color: aqua;
+}
+.cuerpo_descargas:focus{
+    color: black;
+}
+.cuerpo_descargas{
+
+    margin-top: 20px;
+    position: absolute;
+    text-decoration: none;
+    list-style: none;
+    color:white;
+    background-color: #0A2647;
+    border-radius: 15%;
+}
+/*INFORMACIÓN*/
+.informacion{
+    font-family: 'Kalam', cursive;
+    padding: 30px;
+}
+.informacion_cuerpo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.informacion_cuerpo_texto{
+    list-style: none;
+}
+.informacion_imagen{
+    display: flex;
+    margin:0;
+    padding: 0;
+    width:100%;
+    justify-content: center;
+}
+.informacion_cuerpo_image{
+    width: 430px;
+    height: auto;
+    border-radius: 3%;
+}
+.informacion_cuerpo_image2{
+    width: 480px;
+    height: auto;
+    border-radius: 3%;
+}
+/*NOVEDADES*/
+.novedades{
+    font-family: 'Kalam', cursive;
+    padding: 30px;
+}
+.novedades_titulo{
+    display: flex;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+}
+.novedades_texto{
+
+}
+.novedades_texto_imagen{
+    display: flex;
+    margin:0;
+    padding: 0;
+    width:100%;
+    justify-content: center;
+}
+.novedades_imagen1{
+    width: 400px;
+    height: auto;
+    border-radius: 3%;
+}
+.novedades_imagen2{
+    width: 400px;
+    height: auto;
+    border-radius: 3%;
+}
+
+/*CONSEJOS*/
+.consejos{
+
+}
+.consejos_texto{
+    
+}
+
 
 /*.Image{
     width: 280px;
