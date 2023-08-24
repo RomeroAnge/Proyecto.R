@@ -6,35 +6,24 @@
     <title>Novedades</title>
     <link rel="stylesheet" href="src/css/style.css">
 </head>
-<body>
-    <section>
-      <form action="#" method="post">
-        <ul>
-          <li>
-            <label for="name">Nombre Completo:</label>
-            <input type="text" id="name" name="user_name" />
-          </li>
-          <li>
-            <label for="mail">Correo electrónico:</label>
-            <input type="email" id="mail" name="user_mail" />
-          </li>
-          <li>
-            <label for="ciudad">Ciudad:</label>
-            <input type="text" id="ciudad" name="user_ciudad" />
-          </li>
-          <li>
-            <label for="Asunto">Asunto:</label>
-            <input type="text" id="Asunto" name="user_asunto" />
-          </li>
-          <li>
-            <label for="msg">Mensaje:</label>
-            <textarea id="msg" name="user_message"></textarea>
-          </li>
-          <li class="button">
-            <button type="submit">Envíe su mensaje</button>
-          </li>
-        </ul>
+<body class="soporte_principal">
+  <div class="soporte">
+    <div class="soporte_form">
+      <form class="soporte_form_menu" method="post">
+        <h2 class="soporte_titulo">¿En qué podemos Ayudarte?</h2>
+        <input type="text" placeholder="Nombre Completo" required/>
+        <input type="email" placeholder="Correo Electrónico" required/>
+        <input type="text" placeholder="Ciudad" required/>
+        <input type="text" placeholder="Asunto" required/>
+        <textarea rows="5" cols="92.5" type="text" placeholder="Comentario" required></textarea>
+        <a type="submit" class="soporte_animation_enviar" href="">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Enviar
+        </a>
       </form>
-  </section>
-</body>
+    </div>
+  </div>
 </html>
