@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 @media (max-width:768px) {
+    header{
+        justify-content: center;
+    }
     .logo{
-        margin-left:40%;
         width: 20%;
     }
-    .logo_icono{
-        width: 100%;
-        height: 100%;
-    }
     .menu{
-        display: none;
+        display:none;
     }
     .icono{
-        display: none;
+        display:none;
+    }
+    .tres{
+        display: flex;
+    }
+    .cuerpo{
+        flex-direction: column;
     }
 }
 *{
@@ -33,35 +37,54 @@
     margin-bottom: 2%;
 }
 header{
+    display: flex;
     height: 100px;
     width: 90%;
     position: fixed;
     margin-top: 0%;   
     background-color: var(--main-fondo);
 }
-.logo{
+.tres{
     width: 10%;
     height: 100%;
-    text-align: left;
-    position: absolute;
+    background-color: var(--main-fondo);
+    display: none;
+}
+.tres_img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tres_img_icono{
+    width: 70%;
+    height: 90%;
+    margin: 4%;
+}
+.logo{
+    /*width:10%;*/
+    height: 100%;
     background-color: var(--main-fondo);
 }
 
 .logo_icono{
-    width: 90%;
+    width: 70%;
     height: 90%;
     margin: 4%;
 }
 .icono{
-    width: 17%;
+    width: 18%;
     height: 100%;
-    margin-left: 82%;
-    position: absolute;
-    text-align: right;
     border-left-width: 1px;
     border-left-style: solid;
     border-left-color: white;
     background-color: var(--main-fondo);
+}
+.icono_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .icono_icono1{
     background-color: var(--main-fondo);
@@ -73,8 +96,6 @@ header{
 .menu{
     width: 72%;
     height: 100%;
-    margin-left: 10%;
-    position: absolute;
     background-color: var(--main-fondo);
 }
 .menu_contenedor{
@@ -173,7 +194,6 @@ footer{
     display: flex;
     width: 100%;
     margin: 0px;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 
