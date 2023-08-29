@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novedades</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body class="soporte_principal">
-  <div class="soporte">
-    <div class="soporte_form">
-      <form class="soporte_form_menu" method="post">
-        <h2 class="soporte_titulo">¿En qué podemos Ayudarte?</h2>
-        <input type="text" placeholder="Nombre Completo" required/>
-        <input type="email" placeholder="Correo Electrónico" required/>
-        <input type="text" placeholder="Ciudad" required/>
-        <input type="text" placeholder="Asunto" required/>
+<body class="container soporte_principal">
+  <div class="row soporte">
+    <div class="row soporte_form">
+      <form class="row soporte_form_menu" method="post">
+        <h2 class="soporte_titulo text-dark text-align-center text-center fs-1">¿En qué podemos Ayudarte?</h2>
+        <input  class="text-ligh" type="text" placeholder="Nombre Completo" required/>
+        <input  class="text-ligh"type="email" placeholder="Correo Electrónico" required/>
+        <input  class="col-2 text-ligh"type="text" placeholder="Ciudad" required/>
+        <input  class="col-2 text-ligh"type="text" placeholder="Asunto" required/>
         <textarea rows="5" cols="92.5" type="text" placeholder="Comentario" required></textarea>
-        <a type="submit" class="soporte_animation_enviar" href="">
+        <a type="submit" class="soporte_animation_enviar btn-light text-light text-uppercase" href="">
           <span></span>
           <span></span>
           <span></span>
@@ -26,5 +27,8 @@
       </form>
     </div>
   </div>
+  <!-- Enlace a los archivos JavaScript de Bootstrap 5 por separado, popper debe ir primero (popper.js y bootstrap.min.js) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
