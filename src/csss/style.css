@@ -1,24 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
-@media (max-width:768px) {
-    header{
-        justify-content: center;
-    }
-    .logo{
-        width: 20%;
-    }
-    .menu{
-        display:none;
-    }
-    .icono{
-        display:none;
-    }
-    .tres{
-        display: flex;
-    }
-    .cuerpo{
-        flex-direction: column;
-    }
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -513,3 +494,26 @@ footer{
     animation: soporte_animation_enviar-anim4 2s linear infinite;
     animation-delay: 1.5s
   }
+
+
+  @media (max-width:768px) {
+    header{
+        justify-content: flex-start;
+    }
+    .logo{
+        margin: 0 0 0 30%;
+        width: 20%;
+    }
+    .menu{
+        display:none;
+    }
+    .icono{
+        display:none;
+    }
+    .tres{
+        display: block;
+    }
+    .cuerpo{
+        flex-direction: column;
+    }
+}
