@@ -162,8 +162,8 @@ footer{
 }
 /*IFRAME*/
 .iframe{
-    margin-top: 100px;
-    height:775px; 
+    margin-top: 10%;
+    height:770px; 
     width: 100%; 
     border: none; 
     padding: 0;
@@ -173,6 +173,7 @@ footer{
 /*INICIO*/
 .cuerpo{
     display: flex;
+    gap:5%;
     width: 100%;
     margin: 0px;
     justify-content: center;
@@ -181,17 +182,13 @@ footer{
 }
 
 .cuerpo_imagen{
-    margin: 0px;
-    padding: 60px;
-    width: 50%;
-}
-.cuerpo_imagen__detalle{
     width: 100%;
-    height: 600px;
-    padding: 0px;
-    text-align: left;
-    border-radius: 3%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .cuerpo__menu{
     margin: 0px;;
     width: 50%;
